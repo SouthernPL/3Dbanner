@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>tBanner</title> 
+    </head>
+    <body>
+    <div class="container">
+    	<div class="banner"></div>
+    </div>
+	<script type="text/javascript" src="./libs/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="./scripts/3dBanner.js">
+    </script>
+    <script type="text/javascript">
+    //  调用插件函数，传入参数实现效果
+        B({
+            container:".container",
+            banner:".banner",
+            initDeg:    10,
+            url:        "http://static.smartisanos.cn/os/assets/images/useful_describe.d2aa643a5949bac430d3131294f172e8.png",
+            con_height: 400
+        });
+    </script>
+    </body>
+</html>
